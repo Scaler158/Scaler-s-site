@@ -1,0 +1,320 @@
+/* шрифты */
+
+	/* Основной шрифт */
+
+				@font-face {
+					font-family: "main_font";	
+					src: local("GentiumBookPlus"),	    
+						url(/fonts/GentiumBookPlus.woff2) format('woff2'),
+						url(/fonts/GentiumBookPlus.woff) format('woff'),
+						url(/fonts/GentiumBookPlus.ttf) format('ttf');
+					font-weight: normal;
+					font-style: normal;
+					font-display: swap;
+				}
+
+				@font-face {
+					font-family: "main_font";
+					src:  local("GentiumBookPlus-Italic"),
+						url('GentiumBookPlus-Italic.woff2') format('woff2'),
+						url('GentiumBookPlus-Italic.woff') format('woff');
+					font-weight: normal;
+					font-style: italic;
+					font-display: swap;
+				}
+
+				@font-face {
+					font-family: "main_font";
+					src:local("GentiumBookPlus-Bold"),
+						url('GentiumBookPlus-Bold.woff2') format('woff2'),
+						url('GentiumBookPlus-Bold.woff') format('woff');
+					font-weight: bold;
+					font-style: normal;
+					font-display: swap;
+				}
+
+				@font-face {
+					font-family: "main_font";
+					src: local("GentiumBookPlus-BoldItalic"),
+						url('GentiumBookPlus-BoldItalic.woff2') format('woff2'),
+						url('GentiumBookPlus-BoldItalic.woff') format('woff');
+					font-weight: bold;
+					font-style: italic;
+					font-display: swap;
+				}
+
+/* Основа */
+
+		*,*::before,*::after{
+			box-sizing: border-box;
+		}
+
+		body{
+			min-height: 100vh;
+			display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			margin: 0;				
+			background: linear-gradient(0.5turn, #6306f3, #9100ff, #6306f3);
+			font-family: main_font, Cambria, math;			
+		}
+
+/* Хэдер */
+
+	.menu {		
+		margin-bottom: 3px;
+		display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			flex-wrap: wrap;			
+		background: linear-gradient(#000000, 69%, transparent);
+			color: #ffffff;		
+		font-size: 21px;		
+	}
+
+	.menu a {
+		margin: 6px;		
+		color: #ffffff;		
+	}
+
+	.menu a:active{
+		color: #00fd37;
+	}
+
+	.menu a::selection{
+		background: #ffffff ;		
+		color: #00fd37;
+	}
+	
+
+/* Главный раздел */
+	main {		
+		margin: 0 4%;
+		padding: 0 4%;
+		font-size: 20px;
+		background: linear-gradient(0.25turn,transparent, #00fa9a 4%, #00fd37, #00fa9a 96%, transparent);
+	}
+
+	a {
+		text-decoration: none;
+		position: relative; 		/* Для псевдоэлемента подчёркивания! */
+	}
+
+	a:not(.button_up):after {
+			width: 100%;
+			height: 3px;
+			background-color: currentColor;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			content: "";
+			opacity: 0;      
+			transition: opacity .4s ease;     
+		}
+
+		a:hover::after {
+			opacity: 1; 
+		}
+
+		input{
+			height: 30px;	
+			margin-left: 20px;
+			padding: 0 0 0 10px;
+				font-size: 16px;			
+			border-radius: 59px 33px;
+				transition: transform 0.2s ease;
+		}
+
+		input:focus{
+			padding: 10px 10px 10px 15px;
+				font-size: 17px;			
+				transform: scale(110%);	
+				background-color: #ffffff;
+			outline: 2px solid #000000;		
+			border: 1px solid #000000;	
+		}
+
+		input:placeholder-shown:not([oninput]){
+			outline: 2px solid #ff0000;	
+			border: 1px solid #ff0000;
+			background-color: #ffffff;
+		}
+
+		[placeholder]:not([oninput]){							
+			border: 3px solid #808080;
+			background-color: #a2e192;	
+		}	
+
+		::placeholder{
+			font-style: italic;			
+			color: #000000a6;
+			font-size: 15px;
+		}
+
+		
+		button{
+				display: block;
+			margin: 20px 0;
+			padding: 8px;
+    			font-size: 20px;
+			background-color: #76096e;
+				color: #ffffff;
+			transition: background-color 0.3s ease-out, transform 0.3s ease, color 0.3s ease;	
+		}	
+
+		button:hover{
+			background-color: rgb(123, 255, 0);
+			transform: scale(110%);		
+			color: #000000;	
+		}
+
+		button:active{
+			background-color: transparent;			
+		}
+
+	/* Заголовки (общие) */
+		h1 {
+			text-align: center;
+			font-size: 70px;			
+		}
+
+		h2 { /* Есть на главной и дизайне */
+			font-size: 20px;
+			text-align: center;
+			text-decoration: underline;
+		}
+
+	/* ЭКСПЕРИМЕНТАЛЬНАЯ анимация */
+	strong > span{
+		animation: attention infinite alternate linear;		
+		animation-duration: 5s;
+			display: inline-block;
+	}
+	
+	@keyframes attention{
+		0%, 10%, 30%, 50%, 60%, 80%, 100% {
+			transform: none;
+		}		
+		
+		45%, 55% {
+			transform: translateY(-10px);
+		}
+	}
+
+	/* Футер */
+		footer { 
+	    	padding-top: 20px;
+	    	padding-bottom: 10px;			
+				background:linear-gradient(90deg, #666666, #E1DADA, #666666);
+				color: #000000;
+				text-shadow: 5px 19px 17px #000000;
+			font-size: 35px;
+			text-align: center;
+		}
+
+		footer address {
+				padding-left: 15px;
+			white-space: pre-line;
+					font-size: 20px;
+			text-shadow: none;		
+		} 
+
+		address{
+			text-align: center;
+			
+			position: relative;
+			bottom:5px;
+		}
+
+		footer a {
+			color: currentColor;
+		}
+			
+	
+
+	/* Сайдбары (общие - загадки и дизайн) */
+
+		aside h3{
+				text-align: center;
+				margin: 0 0 5px 0;
+			}
+
+		aside ul{			
+			margin: 0;			
+    			margin-bottom: 12px;
+			list-style-type: disclosure-closed;
+		}	
+
+		aside a{
+			color: #ffffff;
+		}
+
+		aside ul li:not(:last-child){
+			margin-bottom: 6px;
+		}
+
+		.button_up{			
+			position: relative;
+			left: 15px;				
+				color: #ffffff;
+			border-radius: 12px;
+				text-decoration: none;
+				font-size: 21px;					
+		}
+
+		.button_up:hover{
+			text-shadow: 2px 5px 7px #ffffff;
+		}
+
+		.button_up:hover::before{
+			transform: translateY(-10px);
+		}
+
+		.button_up::before{
+			content: "\21EA";
+			position: absolute;
+			left: -14px;
+			transition: transform 0.2s ease;
+		}
+
+
+		/* Отключение анимации для пользователей, которые её предпочли убрать */
+		@media screen and (prefers-reduced-motion) { 
+			* {
+			  animation: none;
+			}
+		  }
+		  
+		/* Адаптивность */
+			@media screen and (max-width: 1600px) and (min-width: 1000px) {
+				.menu a {
+					margin: 40px;
+					font-size: 30px;			
+				}
+
+				.design_nav {
+					bottom: 15px;
+				}
+			}
+			
+			@media screen and (max-width: 1000px) and (min-width: 500px) {
+				.menu a {
+					margin: 40px;
+					font-size: 50px; 					
+				}
+
+				.design_nav {
+					bottom: 15px;
+				}
+			}
+		
+			@media screen and (max-width: 500px) {
+				.menu a {
+					margin: 50px;
+					font-size: 50px; 
+				}
+
+				.design_nav {
+					bottom: 15px;
+				}
+			}		
