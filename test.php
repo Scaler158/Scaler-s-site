@@ -36,10 +36,7 @@
 			Личный сайт Скалера
 		</h1>
 
-		<video controls muted autoplay poster="/img/scaler.jpg">			
-			<source src="/video/06.04.23_mom.mp4" type="video/mp4">
-			Ваш браузер не поддерживает встроенные видео :( 			
-		</video>
+		<p>Тестовое изменение</p>
 		  
 
 		<img src="/img/scaler.jpg" alt="Скалер в прыжке" class="image_index" width="430" height="380"> 
