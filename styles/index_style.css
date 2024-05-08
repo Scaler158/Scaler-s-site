@@ -43,7 +43,7 @@
 	}	
 	/*Заголовки уровня 2 - подчёркивание*/
 	h2 {
-		text-underline-offset: 1.5px;
+		text-underline-offset: 4.5px;
 	}
 
 	/*Секция обновлений*/
@@ -139,6 +139,7 @@
 	.image_index_2 {
 		float: left;
 		padding-right: 10px;
+		margin-top: 3px;
 		position: relative;
 		bottom: 10px;
 	}
