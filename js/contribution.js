@@ -4,17 +4,17 @@
 
 		function readInt1(){
 			var userAnswer1 = document.getElementById("userSum").value
-			return parseInt(userAnswer1);
+			return parseFloat(userAnswer1);
 		}
 		
 		function readInt2(){
 		var userAnswer2 = document.getElementById("procent").value
-			return parseInt(userAnswer2);
+			return parseFloat(userAnswer2);
 		}	
 
 		function readInt3(){
 		var userAnswer2 = document.getElementById("userYear").value
-			return parseInt(userAnswer2);
+			return parseFloat(userAnswer2);
 		}
 
 		function write (text){
