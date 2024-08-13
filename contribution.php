@@ -31,6 +31,7 @@
 		<img src="/img/sad.jpg" alt="грустный взгляд" height="480"> 
 
 		<p>Данная программа позвонит Вам рассчитать прибыть от вклада.</p>
+		<p>НЕ ПАШЕТ??</p>
 
 		<p>Введите начальную сумму вклада: <input type="number" placeholder="1000" id="userSum"></p>
 		<p>Введите число процента вклада (без %). Вводите десятичные после <strong>точки</strong>: <input type="number" placeholder="5.5" id="procent"></p> 
