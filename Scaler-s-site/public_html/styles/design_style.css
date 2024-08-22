@@ -1,0 +1,70 @@
+	/* плавный переход по якорям */
+	html{
+		scroll-behavior: smooth;
+	}
+
+/*Навигация*/
+	.design_nav {
+		position: fixed;
+			right: 15px;
+			z-index: 1;
+		padding: 10px;			
+			color: white;
+			box-shadow: 0 0 50px #000000;
+		background: linear-gradient(to right, #1d3b4d 2%,#17977a,#1d3b4d 98%);		
+	}
+	
+	
+/* Основной раздел*/
+	article {
+		border: groove 10px #000000;
+		 background: url(/img/mozaika_fon.jpg);
+		 background-repeat: round;
+	}
+
+/* Раздел с вступительным текстом */
+	hr{
+		margin: 0;
+	}	
+
+	p{
+		margin: 0;
+		padding: 15px 0;
+			background-color: #000000;
+		text-align: center;
+			white-space: pre-line;
+		font-size: 20px;	
+		color: #ffffff;			
+	}	
+
+/* Заголовки разделов */
+	article h1 {
+		font-size: 92px;	
+		color: #ffffff;
+			-webkit-text-stroke: 0.7px #0c0c0c;
+			text-shadow: 0 0 52px darkturquoise;
+	}
+
+	article h2 {
+		font-size: 45px;
+		color: black;
+			-webkit-text-stroke: 1.3px #00fa9a;
+			scroll-margin: 20px;
+	}
+
+	
+/* Слайды */
+	.imageIncenter {
+		display: flex;
+	    flex-direction: column;
+		align-items: center;
+		gap: 20px;  
+	}
+
+	img {		
+		filter: drop-shadow(10px 5px 6px black); 
+	}
+
+	
+
+	
