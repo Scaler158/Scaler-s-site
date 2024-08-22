@@ -17,7 +17,7 @@
 	
 	<link rel="stylesheet" href="/styles/normalize.css"> 
 	<link rel="stylesheet" href="/styles/all_style.css">
-	<link rel="stylesheet" href="/styles/index_style.css">		
+	<link rel="stylesheet" href="/styles/index_style.css">
 </head>
 <body>
 
