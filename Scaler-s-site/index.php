@@ -36,6 +36,18 @@
 			Личный сайт Скалера
 		</h1>
 
+		<h1 class="websiteName_2">
+			Личный сайт Скалера
+		</h1>
+
+		<h1 class="websiteName_3">
+			Личный сайт Скалера
+		</h1>
+
+		<h1 class="websiteName_4">
+			Личный сайт Скалера
+		</h1>
+
 		<audio controls preload="metadata" src="/audio/Crash_Humiliskate.mp3"><p>Упс, Ваш браузер не поддерживает возможность прослушивания аудио! Если очень уж хочется послушать, свяжитесь с автором сайта.</p></audio>
 
 		<img src="/img/scaler.jpg" alt="Скалер в прыжке" class="image_index" width="430" height="380"> 
