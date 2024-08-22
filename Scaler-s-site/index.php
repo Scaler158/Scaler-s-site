@@ -18,9 +18,6 @@
 	<link rel="stylesheet" href="/styles/normalize.css"> 
 	<link rel="stylesheet" href="/styles/all_style.css">
 	<link rel="stylesheet" href="/styles/index_style.css">		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
 </head>
 <body>
 
