@@ -15,12 +15,13 @@
 
 /*Название сайта, картинка, приветствие*/
 	.websiteName {
-			margin-top: 0;    	
+			margin: 0;    	
 				font-size: 250px;		
 				font-style: oblique;		
 				font-weight: normal;
 				font-family: websiteName_font;
 				font-variant: small-caps;
+				line-height: 1;
 			color: blueviolet;
 			-webkit-text-stroke: 5px #000000;
 			text-shadow: 5px 0px 15px #000000;		
@@ -28,18 +29,15 @@
 
 	.image_index {
 		float: right;
-		position: relative;			
-			bottom: 40px;
+		position: relative;		
 			margin-left: 5px;
+			top: 2px;
 		filter: hue-rotate(45deg);
 	}	
 
 	audio {
 		width: 435px;
-		height: 65px;
-		position: absolute;
-		right: 151px;
-		top: 270px;
+		height: 65px;			
 		border: 6px #ffffff solid;
 		border-radius: 40px;	
 	} 
