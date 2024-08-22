@@ -121,15 +121,14 @@
 			height: 30px;	
 			width: 220px;
 			margin-left: 20px;
-			padding: 0 0 0 10px;
-				font-size: 16px;			
+			padding: 0 0 0 10px;						
 			border-radius: 59px 33px;
 				transition: transform 0.2s ease;
 		}
 
 		input:focus{
 			padding: 10px 10px 10px 15px;
-				font-size: 17px;			
+				font-size: 20px;			
 				transform: scale(110%);	
 				background-color: #ffffff;
 			outline: 2px solid #000000;		
