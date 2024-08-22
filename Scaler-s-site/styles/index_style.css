@@ -2,7 +2,7 @@
 	/* Шрифты для названия тестовые*/
 
 	@font-face {
-		font-family: "websiteName_font_3";	
+		font-family: "websiteName_font";	
 		src: local("Jolly Lodger"),	    
 			url(/fonts/Jolly_Lodger.woff2) format('woff2'),
 			url(/fonts/Jolly_Lodger.woff) format('woff'),
@@ -13,29 +13,17 @@
 	}
 
 
-/*Название сайта, крартинка, приветствие*/
-.websiteName {
-	margin-top: 0;    	
-		font-size: 150px;	
-		font-style: oblique;
-		font-weight: normal;
-		font-family: 'Rubik Beastly', cursive;
-		font-variant: small-caps;
-	color: blueviolet;
-	-webkit-text-stroke: 5px #000000;
-	text-shadow: 5px 0px 15px #000000;
-	}
-
-	.websiteName_4 {
-				margin-top: 0;    	
-					font-size: 150px;	
-					font-style: oblique;
-					font-weight: normal;
-					font-family: websiteName_font_3, Cambria, math;
-					font-variant: small-caps;
-				color: blueviolet;
-				-webkit-text-stroke: 5px #000000;
-				text-shadow: 5px 0px 15px #000000;		
+/*Название сайта, картинка, приветствие*/
+	.websiteName {
+			margin-top: 0;    	
+				font-size: 150px;	
+				font-style: oblique;
+				font-weight: normal;
+				font-family: websiteName_font, Cambria, math;
+				font-variant: small-caps;
+			color: blueviolet;
+			-webkit-text-stroke: 5px #000000;
+			text-shadow: 5px 0px 15px #000000;		
 				}
 
 	.image_index {

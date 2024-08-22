@@ -34,11 +34,7 @@
 		
 		<h1 class="websiteName">
 			Личный сайт Скалера
-		</h1>		
-
-		<h1 class="websiteName_4">
-			Личный сайт Скалера
-		</h1>
+		</h1>			
 
 		<audio controls preload="metadata" src="/audio/Crash_Humiliskate.mp3"><p>Упс, Ваш браузер не поддерживает возможность прослушивания аудио! Если очень уж хочется послушать, свяжитесь с автором сайта.</p></audio>
 
