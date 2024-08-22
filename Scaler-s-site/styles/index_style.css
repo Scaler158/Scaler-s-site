@@ -2,28 +2,6 @@
 	/* Шрифты для названия тестовые*/
 
 	@font-face {
-		font-family: "websiteName_font";	
-		src: local("NeedleteethSP_0"),	    
-			url(/fonts/NeedleteethSP_0.woff2) format('woff2'),
-			url(/fonts/NeedleteethSP_0.woff) format('woff'),
-			url(/fonts/NeedleteethSP_0.ttf) format('ttf');
-		font-weight: normal;
-		font-style: normal;
-		font-display: swap;
-	}
-
-	@font-face {
-		font-family: "websiteName_font_2";	
-		src: local("Blackcraft"),	    
-			url(/fonts/Blackcraft.woff2) format('woff2'),
-			url(/fonts/Blackcraft.woff) format('woff'),
-			url(/fonts/Blackcraft.ttf) format('ttf');
-		font-weight: normal;
-		font-style: normal;
-		font-display: swap;
-	}
-
-	@font-face {
 		font-family: "websiteName_font_3";	
 		src: local("Jolly Lodger"),	    
 			url(/fonts/Jolly_Lodger.woff2) format('woff2'),
@@ -48,31 +26,7 @@
 	text-shadow: 5px 0px 15px #000000;
 	}
 
-	.websiteName_2 {
-		margin-top: 0;    	
-			font-size: 150px;	
-			font-style: oblique;
-			font-weight: normal;
-			font-family: websiteName_font, Cambria, math;
-			font-variant: small-caps;
-		color: blueviolet;
-		-webkit-text-stroke: 5px #000000;
-		text-shadow: 5px 0px 15px #000000;		
-		}
-
-		.websiteName_3 {
-			margin-top: 0;    	
-				font-size: 150px;	
-				font-style: oblique;
-				font-weight: normal;
-				font-family: websiteName_font_2, Cambria, math;
-				font-variant: small-caps;
-			color: blueviolet;
-			-webkit-text-stroke: 5px #000000;
-			text-shadow: 5px 0px 15px #000000;		
-			}
-
-			.websiteName_4 {
+	.websiteName_4 {
 				margin-top: 0;    	
 					font-size: 150px;	
 					font-style: oblique;

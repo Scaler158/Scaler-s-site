@@ -34,15 +34,7 @@
 		
 		<h1 class="websiteName">
 			Личный сайт Скалера
-		</h1>
-
-		<h1 class="websiteName_2">
-			Личный сайт Скалера
-		</h1>
-
-		<h1 class="websiteName_3">
-			Личный сайт Скалера
-		</h1>
+		</h1>		
 
 		<h1 class="websiteName_4">
 			Личный сайт Скалера
