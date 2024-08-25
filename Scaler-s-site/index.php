@@ -93,7 +93,8 @@
 		
 		<h2>Другие проекты автора</h2>
 		<p>В данном разделе можно посмотреть все страницы, над которыми я работал в разрезе личных проектов (пет-проектов)</p>
-		<ul><a href="https://github.com/Scaler158?tab=repositories" target="_blank" rel="noopener noreferrer">Мои проекты на Гитхабе</a></ul>
+		<ul>
+			<li><a href="https://github.com/Scaler158?tab=repositories" target="_blank" rel="noopener noreferrer">Мои проекты на Гитхабе</a></li></ul>
 	
 		<h2>Об авторе</h2>
 			<img src="/img/main.jpg" alt="Обложка Скалера" class="image_index_2" height="350"> 
