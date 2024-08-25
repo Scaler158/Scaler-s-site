@@ -32,6 +32,6 @@
 				var sum_result = sum + procent_for_year;
 				sum = sum_result;
 			}
-			write("<b>Итоговый резмер вклада за " + (year-1) + "-й год = " + sum + "</b>");		
+			write("<b>Итоговый размер вклада за " + (year-1) + "-й год = " + sum + "</b>");		
 			}	
 	
