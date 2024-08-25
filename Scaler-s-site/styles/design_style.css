@@ -40,6 +40,7 @@
 /* Заголовки разделов */
 	article h1 {
 		font-size: 92px;	
+		font-family: 'Times New Roman', Times, serif;
 		color: #ffffff;
 			-webkit-text-stroke: 0.7px #0c0c0c;
 			text-shadow: 0 0 52px darkturquoise;
@@ -47,6 +48,7 @@
 
 	article h2 {
 		font-size: 45px;
+		font-family: 'Times New Roman', Times, serif;
 		color: black;
 			-webkit-text-stroke: 1.3px #00fa9a;
 			scroll-margin: 20px;
