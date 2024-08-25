@@ -51,8 +51,8 @@
 				@font-face {
 					font-family: 'menu_font';
 					src:  local("GentiumBookPlus-Italic"),
-						url(/fonts/Washington.woff) format('woff'),
 						url(/fonts/Washington.woff2) format('woff2'),
+						url(/fonts/Washington.woff) format('woff'),						
 						url(/fonts/Washington.ttf) format('ttf');
 					font-weight: normal;
 					font-style: normal;
