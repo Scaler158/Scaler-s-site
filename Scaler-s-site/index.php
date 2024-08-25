@@ -25,7 +25,11 @@
 		<?php 
 			include "menu.html"; 
 		?>
+		<?php 
+			include "menu_copy.html"; 
+		?>
 	</header>
+
 
 	<main>
 		

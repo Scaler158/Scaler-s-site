@@ -73,6 +73,19 @@
 		font-size: 21px;		
 	}
 
+	.menu_copy {		
+		margin-bottom: 3px;
+		padding: 10px 0px;
+		display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			flex-wrap: wrap;			
+		background: linear-gradient(#000000, 69%, transparent);
+			color: #ffffff;		
+		font-size: 21px;		
+		font-family: main_font;
+	}
+
 	.menu a {
 		margin: 6px;		
 		color: #ffffff;		
