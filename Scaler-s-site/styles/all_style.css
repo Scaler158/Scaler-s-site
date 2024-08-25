@@ -16,8 +16,9 @@
 				@font-face {
 					font-family: "main_font";
 					src:  local("GentiumBookPlus-Italic"),
-						url('GentiumBookPlus-Italic.woff2') format('woff2'),
-						url('GentiumBookPlus-Italic.woff') format('woff');
+						url(/fonts/GentiumBookPlus-Italic.woff2) format('woff2'),
+						url(/fonts/GentiumBookPlus-Italic.woff) format('woff'),
+						url(/fonts/GentiumBookPlus-Italic.ttf) format('ttf');
 					font-weight: normal;
 					font-style: italic;
 					font-display: swap;
@@ -26,8 +27,9 @@
 				@font-face {
 					font-family: "main_font";
 					src:local("GentiumBookPlus-Bold"),
-						url('GentiumBookPlus-Bold.woff2') format('woff2'),
-						url('GentiumBookPlus-Bold.woff') format('woff');
+						url(/fonts/GentiumBookPlus-Bold.woff2) format('woff2'),
+						url(/fonts/GentiumBookPlus-Bold.woff) format('woff'),
+						url(/fonts/GentiumBookPlus-Italic.ttf) format('ttf');
 					font-weight: bold;
 					font-style: normal;
 					font-display: swap;
@@ -36,12 +38,26 @@
 				@font-face {
 					font-family: "main_font";
 					src: local("GentiumBookPlus-BoldItalic"),
-						url('GentiumBookPlus-BoldItalic.woff2') format('woff2'),
-						url('GentiumBookPlus-BoldItalic.woff') format('woff');
+						url(/fonts/GentiumBookPlus-BoldItalic.woff) format('woff2'),
+						url(/fonts/GentiumBookPlus-BoldItalic.woff) format('woff'),
+						url(/fonts/GentiumBookPlus-Italic.ttf) format('ttf');
 					font-weight: bold;
 					font-style: italic;
 					font-display: swap;
 				}
+
+	/* Шрифт для меню */
+
+				@font-face {
+					font-family: 'menu_font';
+					src:  local("GentiumBookPlus-Italic"),
+						url(/fonts/Washington.woff) format('woff'),
+						url(/fonts/Washington.woff2) format('woff2'),
+						url(/fonts/Washington.ttf) format('ttf');
+					font-weight: normal;
+					font-style: normal;
+					font-display: swap;
+				 }
 
 /* Основа */
 
@@ -132,16 +148,16 @@
 
 		input{
 			height: 30px;	
+			width: 220px;
 			margin-left: 20px;
-			padding: 0 0 0 10px;
-				font-size: 16px;			
+			padding: 0 0 0 10px;						
 			border-radius: 59px 33px;
 				transition: transform 0.2s ease;
 		}
 
 		input:focus{
 			padding: 10px 10px 10px 15px;
-				font-size: 17px;			
+				font-size: 20px;			
 				transform: scale(110%);	
 				background-color: #ffffff;
 			outline: 2px solid #000000;		

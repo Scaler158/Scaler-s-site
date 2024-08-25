@@ -36,7 +36,7 @@
 		<p>Введите число процента вклада (без значка %). Вводите десятичные после <strong>точки</strong>: <input type="number" placeholder="5.5" id="procent"></p> 
 		<p>Введите срок вклада, выраженный цифрой лет: <input type="number" placeholder="5" id="userYear"></p>
 
-		<output id="info">Здесь будет ответ</output> 
+		<output id="info"><i>Здесь будет ответ</i></output> 
 
 		<button type="button" onclick="start();">Посчитать</button>
 			
