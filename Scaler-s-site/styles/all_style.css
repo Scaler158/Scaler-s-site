@@ -82,8 +82,7 @@
 			min-height: 100vh;
 			display: flex;
 				flex-direction: column;
-				justify-content: space-between;
-			margin: 0;				
+				justify-content: space-between;						
 			background: linear-gradient(0.5turn, #6306f3, #9100ff, #6306f3);
 			font-family: main_font, Cambria, math;			
 		}

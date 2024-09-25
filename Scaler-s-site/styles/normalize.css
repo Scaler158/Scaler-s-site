@@ -178,6 +178,14 @@
     overflow: visible;
   }
   
+ input::-ms-clear {
+  display:none;
+}
+/*Актуально только для браузера Internet Explorer. У инпута в этом браузере при вводе текста появляется конпка в виде крестика для очистки поля. 
+Это правило его убирает, чтобы не было неясностей с макетом.*/
+
+
+
   /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
    * 1. Remove the inheritance of text transform in Firefox.
