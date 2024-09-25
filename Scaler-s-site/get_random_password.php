@@ -38,7 +38,7 @@
 
 		<p><strong><span>⚠️</span>ВАЖНО: Не рекомендуется вводить числа более 150 - пароль выходит за пределы экрана. В будущем это будет исправлено.</strong></p>
 
-		<div><input type="number" id="userAnswer" placeholder=" " oninput="generate();"><label for="userAnswer">Просто введите число!</label></div>
+		<div><input type="number" id="userAnswer" placeholder=" " oninput="generate();" max="150"><label for="userAnswer">Просто введите число!</label></div>
 		
 		<output id ="passw"></output>
 	</main>
