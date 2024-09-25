@@ -33,6 +33,7 @@
 			margin-left: 5px;
 			top: 2px;
 		filter: hue-rotate(45deg);
+		border-radius: 50%;
 	}	
 
 	audio {
