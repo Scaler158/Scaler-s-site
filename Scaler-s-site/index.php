@@ -15,6 +15,11 @@
 
 	<title>Личный сайт Скалера</title>
 	
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon/site.webmanifest">
+
 	<link rel="stylesheet" href="/styles/normalize.css"> 
 	<link rel="stylesheet" href="/styles/all_style.css">
 	<link rel="stylesheet" href="/styles/index_style.css">
@@ -52,6 +57,7 @@
 				<table>
 				<caption>Последние обновления</caption>				
 					<tr><th scope="col">Дата обновления</th><th scope="col">Что изменилось</th></tr>	
+					<tr><td><time datetime="2024-09-25">25.09.2024</time></td><td>На страницы сайта добавлена фавиконка!</td></tr>
 					<tr><td><time datetime="2024-08-25">25.08.2024</time></td><td>Шрифты меню сайта и заголовков страниц изменены.</td></tr>
 					<tr><td><time datetime="2024-08-22">22.08.2024</time></td><td>Шрифт названия сайта изменён.</td></tr>
 					<tr><td><time datetime="2024-08-13">13.08.2024</time></td><td>Я изучал основы гита, теперь нет необходимости в тестовой странице - она удалена.</td></tr>	
@@ -72,7 +78,7 @@
 							<li>Везде расположить картинки/игры/программы по центру. Подумать, где вводить данные в середине инпутов, а где - слева (текст и большие числа/числа?)</li>
 							<li>Выровнять заголовки, сдвинутые с центра из-за обтекания картинок на главной.</li>
 							<li>Ссылки в футере заменить маленькими картинками (Гитхаб,мыло и ВК - сделать ссылку на страницу, сделать ВК объявление и в контактные данные сайт внести)</li>
-							<li>Создать favicon для сайта и разместить его.</li>
+							<li><s>Создать favicon для сайта и разместить его.</s></li>
 						</ol>
 					</li>	
 					<li>Сделать логотип сайта над меню с ссылкой на главную, обернуть в нав, убрать главную из меню.</li>
