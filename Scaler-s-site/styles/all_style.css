@@ -1,4 +1,4 @@
-/* шрифты */
+/* шрифты (подключение) */
 
 	/* Основной шрифт */
 
@@ -121,7 +121,7 @@
 	main {		
 		margin: 0 4%;
 		padding: 0 4%;
-		font-size: 20px;
+		font-size: 1.3rem;
 		background: linear-gradient(0.25turn,transparent, #00fa9a 4%, #00fd37, #00fa9a 96%, transparent);
 	}
 
@@ -214,7 +214,7 @@
 			text-decoration: underline;
 		}
 
-	/* ЭКСПЕРИМЕНТАЛЬНАЯ анимация */
+	/* Значки "внимание" (страница паролей) */
 	strong > span{
 		animation: attention infinite alternate linear;		
 		animation-duration: 5s;
