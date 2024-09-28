@@ -115,7 +115,6 @@
 			
 	</main>
 
-	
 	<footer>
 		<?php
 		include "footer.html";
