@@ -233,34 +233,21 @@
 
 	/* Футер */
 		footer { 
-	    	padding-top: 20px;
-	    	padding-bottom: 10px;			
-				background:linear-gradient(90deg, #666666, #E1DADA, #666666);
-				color: #000000;
+	    	padding: 20px 0 10px;	    				
+				background:linear-gradient(90deg, #666666, #E1DADA, #666666);				
 				text-shadow: 5px 19px 17px #000000;
 			font-size: 35px;
 			text-align: center;
 		}
 
 		footer address {
-				padding-left: 15px;
-			white-space: pre-line;
-					font-size: 20px;
-			text-shadow: none;		
-		} 
-
-		address{
-			text-align: center;
-			
 			position: relative;
 			bottom:5px;
-		}
-
-		footer a {
-			color: currentColor;
-		}
+				white-space: pre-line;
+				font-size: 20px;
+				text-shadow: none;		
+		} 
 			
-	
 
 	/* Сайдбары (общие - загадки и дизайн) */
 

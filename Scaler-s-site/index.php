@@ -113,7 +113,6 @@
 			<p><a href = "https://proza.ru/avtor/scaler158"  rel="noopener noreferrer" target="_blank">Тут</a> можно почитать прозу, которую я сочинил и написал, а <a href = "https://stihi.ru/avtor/scaler158"  rel="noopener noreferrer" target="_blank">тут</a> - стихи моего сочинения.</p>
 			<p>Большое спасибо за прочтение, это важно для меня. Оставьте мне отзыв о сайте, или, если Вам интересно, я могу уведомлять Вас об обновлениях на сайте.</p>
 			
-		<address>Моя почта - <a href="mailto:tararin.ivan@mail.ru?subject=Письмо_с_сайта">tararin.ivan@mail.ru</a></address>
 	</main>
 
 	
