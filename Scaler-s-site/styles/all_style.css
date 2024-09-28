@@ -247,6 +247,10 @@
 				font-size: 20px;
 				text-shadow: none;		
 		} 
+
+		footer a {
+			display: inline-block;
+		}
 			
 
 	/* Сайдбары (общие - загадки и дизайн) */
