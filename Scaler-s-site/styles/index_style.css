@@ -107,14 +107,14 @@
 	}
 
 	caption {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 		font-weight: bold;
 		margin-bottom: 5px;
 	}
 
 	th {
 		border-bottom: solid #00e2ff 5px;
-		font-size: 1.2em;
+		font-size: 1.5rem;
 		text-shadow: 2px 0px 0.5px #000000;
 		background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgb(102 20 251 / 67%));	
 	}
@@ -125,7 +125,7 @@
 	}
 
 	time {
-		font-size: 30px;
+		font-size: 1.9rem;
 	}
 	
 	time::before {
