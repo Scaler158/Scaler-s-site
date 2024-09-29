@@ -78,10 +78,10 @@ p + p:not([class=bold]+p), [name="userAnswer_12"] + p{
 
 .answersByUsers{
 	float: right;
-		margin-top: -398px;
+		margin-top: -413px;
 		margin-right: 40px;
 		padding: 4px;			
-	min-height: 300px;
+	min-height: 325px;
 	border: solid 5px gold; 
 	background-color: white;
 	}
