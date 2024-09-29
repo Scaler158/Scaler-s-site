@@ -71,8 +71,8 @@ p + p:not([class=bold]+p), [name="userAnswer_12"] + p{
 	background: url(/img/pedestal.jpeg);
 	background-size: cover;	
 	background-position: center;
-	min-height: 285px;
-		width: 500px;
+	min-height: 310px;
+		width: 515px;
 	text-align: center;
 }
 
