@@ -97,9 +97,8 @@
 			justify-content: space-evenly;
 			flex-wrap: wrap;			
 		background: linear-gradient(#000000, 69%, transparent);
-			color: #ffffff;		
-		font-size: 1.6rem;	
-		font-family: menu_font, Cambria, math;	
+			font-size: 1.6rem;	
+			font-family: menu_font, Cambria, math;	
 	}
 
 	.menu a {
