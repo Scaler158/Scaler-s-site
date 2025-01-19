@@ -1,6 +1,6 @@
-/* шрифты (подключение) */
+/** шрифты (подключение) */
 
-	/* Основной шрифт */
+	/** Основной шрифт */
 
 				@font-face {
 					font-family: "main_font";	
@@ -46,7 +46,7 @@
 					font-display: swap;
 				}
 
-	/* Шрифт для меню */
+	/*** Шрифт для меню */
 
 				@font-face {
 					font-family: 'menu_font';
@@ -59,7 +59,7 @@
 					font-display: swap;
 				 }
 				 
-	/* Шрифт для заголовков h1 */			 
+	/*** Шрифт для заголовков h1 */			 
 
 				 @font-face {
 					font-family: 'H1_font';
@@ -72,7 +72,7 @@
 					font-display: swap;
 				}
 
-/* Основа */
+/*** Основа */
 
 		*,*::before,*::after{
 			box-sizing: border-box;
@@ -87,7 +87,7 @@
 			font-family: main_font, Cambria, math;			
 		}
 
-/* Хэдер */
+/** Хэдер */
 
 	.menu {		
 		margin-bottom: 3px;
@@ -116,7 +116,7 @@
 	}
 	
 
-/* Главный раздел */
+/** Главный раздел */
 	main {		
 		margin: 0 4%;
 		padding: 0 4%;
@@ -126,7 +126,7 @@
 
 	a {
 		text-decoration: none;
-		position: relative; 		/* Для псевдоэлемента подчёркивания! */
+		position: relative; 		/** Для псевдоэлемента подчёркивания! */
 	}
 
 	a:not(.button_up):after {
@@ -145,7 +145,7 @@
 			opacity: 1; 
 		}
 
-		 input{							/*есть на пароле, загадках, обоих угадай число, факториале, вкладе, валютах*/
+		 input{							/****есть на пароле, загадках, обоих угадай число, факториале, вкладе, валютах*/
 			height: 30px;	
 			width: 235px;
 			margin-left: 20px;
@@ -174,13 +174,13 @@
 			background-color: #a2e192;	
 		}	
 
-		 ::placeholder{						/*Используется на вкладе, конверторе валют*/
+		 ::placeholder{						/**Используется на вкладе, конверторе валют*/
 			font-style: italic;			
 			color: #000000a6;
 			font-size: 1.3rem;
 		}
 		
-		 button{							/*кнопки есть на загадках, переводе с английского, запоминании чисел, слепой печати, калькуляторе вклада, конверторе валют */
+		 button{							/**кнопки есть на загадках, переводе с английского, запоминании чисел, слепой печати, калькуляторе вклада, конверторе валют */
 				display: block;
 			margin: 20px 0;
 			padding: 8px;
@@ -199,20 +199,20 @@
 			background-color: transparent;			
 		}
 
-	/* Заголовки (общие) */
+	/** Заголовки (общие) */
 		h1 {
 			text-align: center;
 			font-size: 70px;	
 			font-family: H1_font, Cambria, math;		
 		}
 
-		h2 { /* Есть на главной и дизайне */
+		h2 { /** Есть на главной и дизайне */
 			font-size: 20px;
 			text-align: center;
 			text-decoration: underline;
 		}
 
-	/* Значки "внимание" (страница паролей) */
+	/** Значки "внимание" (страница паролей) */
 	strong > span{
 		animation: attention infinite alternate linear;		
 		animation-duration: 5s;
@@ -229,7 +229,7 @@
 		}
 	}
 
-	/* Футер */
+	/** Футер */
 		footer { 
 	    	padding: 20px 0 10px;	    				
 				background:linear-gradient(90deg, #666666, #E1DADA, #666666);				
@@ -251,11 +251,11 @@
 		}
 
 		footer a:last-child{	
-			margin-bottom: 3px;		/*Отступ от города для последней ссылки футера */
+			margin-bottom: 3px;		/**Отступ от города для последней ссылки футера */
 		}
 			
 
-	/* Сайдбары (общие - загадки и дизайн) */
+	/** Сайдбары (общие - загадки и дизайн) */
 
 		aside h3{
 				text-align: center;
@@ -301,14 +301,14 @@
 		}
 
 
-		/* Отключение анимации для пользователей, которые её предпочли убрать */
+		/** Отключение анимации для пользователей, которые её предпочли убрать */
 		@media screen and (prefers-reduced-motion) { 
 			* {
 			  animation: none;
 			}
 		  }
 		  
-		/* Адаптивность */
+		/** Адаптивность */
 			@media screen and (max-width: 1600px) and (min-width: 1000px) {
 				.menu a {
 					margin: 40px;
